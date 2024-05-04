@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -97,17 +97,17 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
+      company: 'Amazon',
+      position: 'Software Development Engineer Intern',
+      from: 'May 2023',
+      to: 'August 2023',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Georgia Tech',
+      position: 'Teaching Assistant',
+      from: 'January 2023',
+      to: 'Present',
       companyLink: 'https://example.com',
     },
   ],
@@ -121,16 +121,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Georgia Tech',
+      degree: 'Bachelor's Degree',
+      from: '2022',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Florida',
+      degree: 'Dual Enrollment Student',
+      from: '2021',
+      to: '2022',
     },
   ],
   publications: [
